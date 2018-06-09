@@ -6,6 +6,4 @@ var server = require('nodebootstrap-server')
   , app    = require('express')();
 
 
-//app = require('nodebootstrap-htmlapp').setup(app);
-
 server.setup(app, appConfig.setup);
